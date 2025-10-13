@@ -22,6 +22,7 @@ git clone https://github.com/bvfnbk/neovim-configuration.git $HOME/.config/nvim
 >
 > `$HOME/.config` is the `$XDG_CONFIG_HOME` directory under Linux. The `$NVIM_APPNAME` is `nvim` by default.
 
+
 ### Windows
 
 I have no idea.
@@ -30,7 +31,8 @@ I have no idea.
 
 ## Issues
 
-_No issues know..._
+_No issues known..._
+
 
 ## Resources
 
@@ -39,10 +41,18 @@ _No issues know..._
 
 - https://lazy.folke.io (Plugin manager for _Neovim_)
 
+
 #### Plugins
 
 - https://github.com/catppuccin/nvim
 - https://github.com/nvim-telescope/telescope.nvim
+
+
+### Background
+
+- https://www.youtube.com/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn
+
+  The Youtube playlist which got me going.
 
 
 ### Linux
