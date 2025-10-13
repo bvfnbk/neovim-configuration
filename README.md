@@ -30,9 +30,7 @@ I have no idea.
 
 ## Issues
 
-- _lazy.nvim_ complains, there is an error while processing the configuration: no specs are found in the "plugins" module.
-  This is expected (at this point) as there are no specs in the `lua/plugins/` directory yet.
-
+_No issues know..._
 
 ## Resources
 
@@ -40,6 +38,11 @@ I have no idea.
 ### Neovim
 
 - https://lazy.folke.io (Plugin manager for _Neovim_)
+
+#### Plugins
+
+- https://github.com/catppuccin/nvim
+- https://github.com/nvim-telescope/telescope.nvim
 
 
 ### Linux
