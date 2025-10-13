@@ -5,6 +5,8 @@ My (a) Neovim configuration.
 ## Installation
 
 The configuration files can be installed by checking out this repository to the correct location.
+This section provides instructions on how to do it on _macOS_, _Linux_ (and probably other UNIX-like
+operating systems as well).
 
 ### macOS, Linux
 
