@@ -4,6 +4,8 @@ My (a) Neovim configuration.
 
 ## Installation
 
+The configuration files can be installed by checking out this repository to the correct location.
+
 ### macOS, Linux
 
 By default, _Neovim_ searches for its configuration in `$HOME/.config/$NVIM_APPNAME`:
