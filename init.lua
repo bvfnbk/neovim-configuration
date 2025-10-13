@@ -5,3 +5,6 @@ vim.cmd("set softtabstop=2")
 
 
 require("config.lazy")
+
+
+vim.cmd.colorscheme "catppuccin"
