@@ -41,6 +41,10 @@ I have no idea.
 
 - https://lazy.folke.io (Plugin manager for _Neovim_)
 
+#### Plugins
+
+- https://github.com/catppuccin/nvim
+- https://github.com/nvim-telescope/telescope.nvim
 
 ### Linux
 
