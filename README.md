@@ -30,7 +30,8 @@ I have no idea.
 
 ## Issues
 
-_No issues know..._
+_No issues known..._
+
 
 ## Resources
 
