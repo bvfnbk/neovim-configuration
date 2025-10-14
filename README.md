@@ -31,7 +31,10 @@ I have no idea.
 
 ### Additional Requirements
 
+Install the following packages using the installation method of your choice:
+
 - https://github.com/BurntSushi/ripgrep (for _Telescope_ functions `live_grep` and `grep_string`)
+- GCC (for _Treesitter_)
 
 
 ## Issues
@@ -51,6 +54,9 @@ _No issues known..._
 
 - https://github.com/catppuccin/nvim
 - https://github.com/nvim-telescope/telescope.nvim
+- https://github.com/nvim-treesitter/nvim-treesitter
+- https://github.com/nvim-neo-tree/neo-tree.nvim
+- https://github.com/nvim-lualine/lualine.nvim
 
 
 ### Background
