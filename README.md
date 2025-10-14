@@ -29,6 +29,11 @@ I have no idea.
 
 
 
+### Additional Requirements
+
+- https://github.com/BurntSushi/ripgrep (for _Telescope_ functions `live_grep` and `grep_string`)
+
+
 ## Issues
 
 _No issues known..._
