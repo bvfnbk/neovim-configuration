@@ -38,6 +38,10 @@ Install the following packages using the installation method of your choice:
 
 ## Keyboard
 
+> [!note]
+>
+> Leader is mapped to ' ' (Space).
+
 | Shortcut     | Description            |
 | ---          | ---                    | 
 | `<leader>fr` | Reindent current file. |
