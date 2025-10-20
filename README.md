@@ -28,7 +28,6 @@ git clone https://github.com/bvfnbk/neovim-configuration.git $HOME/.config/nvim
 I have no idea.
 
 
-
 ### Additional Requirements
 
 Install the following packages using the installation method of your choice:
@@ -37,10 +36,16 @@ Install the following packages using the installation method of your choice:
 - GCC (for _Treesitter_)
 
 
-## Issues
+## Keyboard
 
-_No issues known..._
-
+| Shortcut                         | Description            |
+| ---                              | ---                    | 
+| <key><leader></key><key>fr</key> | Reindent current file. |
+| <key><leader></key><key>ff</key> | Fuzzy-find files.      |
+| <key><leader></key><key>fg</key> | Live grep              |
+| <key><leader></key><key>fb</key> | Buffers                |
+| <key><leader></key><key>fh</key> | Help tags...           |
+| <key><leader></key><key>n</key>  | Show filesystem tree.  |
 
 ## Resources
 
