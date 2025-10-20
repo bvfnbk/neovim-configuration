@@ -38,14 +38,14 @@ Install the following packages using the installation method of your choice:
 
 ## Keyboard
 
-| Shortcut                         | Description            |
-| ---                              | ---                    | 
-| <key><leader></key><key>fr</key> | Reindent current file. |
-| <key><leader></key><key>ff</key> | Fuzzy-find files.      |
-| <key><leader></key><key>fg</key> | Live grep              |
-| <key><leader></key><key>fb</key> | Buffers                |
-| <key><leader></key><key>fh</key> | Help tags...           |
-| <key><leader></key><key>n</key>  | Show filesystem tree.  |
+| Shortcut     | Description            |
+| ---          | ---                    | 
+| `<leader>fr` | Reindent current file. |
+| `<leader>ff` | Fuzzy-find files.      |
+| `<leader>fg` | Live grep              |
+| `<leader>fb` | Buffers                |
+| `<leader>fh` | Help tags...           |
+| `<leader>n`  | Show filesystem tree.  |
 
 ## Resources
 
