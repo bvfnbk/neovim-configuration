@@ -42,14 +42,25 @@ Install the following packages using the installation method of your choice:
 >
 > Leader is mapped to ' ' (Space).
 
-| Shortcut     | Description            |
-| ---          | ---                    | 
-| `<leader>fr` | Reindent current file. |
-| `<leader>ff` | Fuzzy-find files.      |
-| `<leader>fg` | Live grep              |
-| `<leader>fb` | Buffers                |
-| `<leader>fh` | Help tags...           |
-| `<leader>n`  | Show filesystem tree.  |
+| Shortcut     | Description                            |
+| ---          | ---                                    | 
+| `<leader>fr` | Reindent current file.                 |
+| `<leader>ff` | Fuzzy-find files.                      |
+| `<leader>fg` | Live grep                              |
+| `<leader>fb` | Buffers                                |
+| `<leader>fh` | Help tags...                           |
+| `<leader>n`  | Show filesystem tree.                  |
+| `<leader>td` | Show 'Dooing' window.                  |
+| `<leader>tD` | Show Project-specific 'Dooing' window. |
+
+
+## Applications
+
+
+| Application     | Documentation                  |
+| ---             | ---                            |
+| Todo Management | [docs/todo.md](./docs/todo.md) |
+
 
 
 ## Resources
