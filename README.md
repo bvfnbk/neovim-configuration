@@ -51,6 +51,7 @@ Install the following packages using the installation method of your choice:
 | `<leader>fh` | Help tags...           |
 | `<leader>n`  | Show filesystem tree.  |
 
+
 ## Resources
 
 
@@ -66,6 +67,11 @@ Install the following packages using the installation method of your choice:
 - https://github.com/nvim-treesitter/nvim-treesitter
 - https://github.com/nvim-neo-tree/neo-tree.nvim
 - https://github.com/nvim-lualine/lualine.nvim
+
+
+##### Personal Information Management
+
+- https://github.com/atiladefreitas/dooing
 
 
 ### Background
