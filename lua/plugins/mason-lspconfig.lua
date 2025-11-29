@@ -1,11 +1,9 @@
 return {
   "mason-org/mason-lspconfig.nvim",
   opts = {},
-  dependencies = {
-    { "mason-ort/mason.nvim", opts = {}},
-    "neovim/nvim-lspconfig"
-  },
   config = function()
-    require("mason-lspconfig").setup({})
+    require("mason-lspconfig").setup({
+      ensure_installed = { "lua_ls" }
+    })
   end
 }
