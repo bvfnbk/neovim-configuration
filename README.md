@@ -42,16 +42,19 @@ Install the following packages using the installation method of your choice:
 >
 > Leader is mapped to ' ' (Space).
 
-| Shortcut     | Description                            |
-| ---          | ---                                    | 
-| `<leader>fr` | Reindent current file.                 |
-| `<leader>ff` | Fuzzy-find files.                      |
-| `<leader>fg` | Live grep                              |
-| `<leader>fb` | Buffers                                |
-| `<leader>fh` | Help tags...                           |
-| `<leader>n`  | Show filesystem tree.                  |
-| `<leader>td` | Show 'Dooing' window.                  |
-| `<leader>tD` | Show Project-specific 'Dooing' window. |
+| Shortcut     | Description                                                   |
+| ---          | ---                                                           | 
+| `<leader>fr` | Reindent current file.                                        |
+| `<leader>ff` | Fuzzy-find files.                                             |
+| `<leader>fg` | Live grep                                                     |
+| `<leader>fb` | Buffers                                                       |
+| `<leader>fh` | Help tags...                                                  |
+| `<leader>n`  | Show filesystem tree.                                         |
+| `<leader>k`  | Display hover iunformation about the symbol under the cursor. |
+| `<leader>gd` | Go to the definition of the symbol under the cursor.          |
+| `<leader>qf` | Quick fix/code actions.                                       |
+| `<leader>td` | Show 'Dooing' window.                                         |
+| `<leader>tD` | Show Project-specific 'Dooing' window.                        |
 
 
 ## Applications
@@ -82,6 +85,7 @@ Install the following packages using the installation method of your choice:
 - https://github.com/mason-org/mason.nvim
 - https://github.com/mason-org/mason-lspconfig.nvim
 - https://github.com/neovim/nvim-lspconfig
+- https://github.com/nvim-telescope/telescope-ui-select.nvim
 
 ##### Personal Information Management
 
