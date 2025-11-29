@@ -78,7 +78,10 @@ Install the following packages using the installation method of your choice:
 - https://github.com/nvim-treesitter/nvim-treesitter
 - https://github.com/nvim-neo-tree/neo-tree.nvim
 - https://github.com/nvim-lualine/lualine.nvim
-
+- https://github.com/folke/noice.nvim
+- https://github.com/mason-org/mason.nvim
+- https://github.com/mason-org/mason-lspconfig.nvim
+- https://github.com/neovim/nvim-lspconfig
 
 ##### Personal Information Management
 
