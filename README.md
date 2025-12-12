@@ -44,6 +44,7 @@ Install the following packages using the installation method of your choice:
 
 | Shortcut     | Description                                                   |
 | ---          | ---                                                           | 
+| `<C-x,C-o>`  | Code complete.                                                |
 | `<leader>fr` | Reindent current file.                                        |
 | `<leader>ff` | Fuzzy-find files.                                             |
 | `<leader>fg` | Live grep                                                     |
@@ -91,6 +92,9 @@ Install the following packages using the installation method of your choice:
 
 - https://github.com/atiladefreitas/dooing
 
+##### LSP Servers
+
+- https://github.com/artempyanykh/marksman
 
 ### Background
 
