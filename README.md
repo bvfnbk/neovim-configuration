@@ -87,6 +87,7 @@ Install the following packages using the installation method of your choice:
 - https://github.com/mason-org/mason-lspconfig.nvim
 - https://github.com/neovim/nvim-lspconfig
 - https://github.com/nvim-telescope/telescope-ui-select.nvim
+- https://github.com/hrsh7th/nvim-cmp
 
 ##### Personal Information Management
 
