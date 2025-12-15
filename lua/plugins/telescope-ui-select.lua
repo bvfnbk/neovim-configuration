@@ -1,7 +1,7 @@
 return {
   "nvim-telescope/telescope-ui-select.nvim",
-  dependencies = { 
-    "nvim-telescope/telescope.nvim" 
+  dependencies = {
+    "nvim-telescope/telescope.nvim"
   },
   opts = function (_, opts)
     local themes = require("telescope.themes")
