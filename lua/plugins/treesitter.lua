@@ -3,25 +3,21 @@ return {
   lazy = false,
   branch = 'master',
   build = ":TSUpdate",
-  config = function()
-    local parserConfiguration = require("nvim-treesitter.configs")
-    parserConfiguration.setup({
-      ensure_installed = {
-        "lua",
-        "vim",
-        "vimdoc",
-        "markdown",
-        "markdown_inline"
-      },
-      auto_install = true,
+  opts = function (_, opts)
+    opts.ensure_installed = {
+      "lua",
+      "vim",
+      "vimdoc",
+      "markdown",
+      "markdown_inline"
+    }
 
-      highlight = {
-        enable = true
-      },
-      indent = {
-        enable = true
-      }
-    })
+    opts.auto_install = true
 
+    opts.highlight = opts.highlight or {}
+    opts.highlight.enable = true
+
+    opts.indent = opts.indent or {}
+    opts.indent.enable = true
   end
 }
