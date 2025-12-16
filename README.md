@@ -34,7 +34,7 @@ Install the following packages using the installation method of your choice:
 
 - https://github.com/BurntSushi/ripgrep (for _Telescope_ functions `live_grep` and `grep_string`)
 - GCC (for _Treesitter_)
-
+- Node and `npm` for the "Typescript Language Server"
 
 ## Keyboard
 
@@ -42,20 +42,20 @@ Install the following packages using the installation method of your choice:
 >
 > Leader is mapped to ' ' (Space).
 
-| Shortcut     | Description                                                   |
-| ---          | ---                                                           | 
-| `<C-x,C-o>`  | Code complete.                                                |
-| `<leader>fr` | Reindent current file.                                        |
-| `<leader>ff` | Fuzzy-find files.                                             |
-| `<leader>fg` | Live grep                                                     |
-| `<leader>fb` | Buffers                                                       |
-| `<leader>fh` | Help tags...                                                  |
-| `<leader>n`  | Show filesystem tree.                                         |
-| `<leader>k`  | Display hover iunformation about the symbol under the cursor. |
-| `<leader>gd` | Go to the definition of the symbol under the cursor.          |
-| `<leader>qf` | Quick fix/code actions.                                       |
-| `<leader>td` | Show 'Dooing' window.                                         |
-| `<leader>tD` | Show Project-specific 'Dooing' window.                        |
+| Shortcut      | Description                                                   |
+| ---           | ---                                                           | 
+| `<C><leader>` | Code complete.                                                |
+| `<leader>fr`  | Reindent current file.                                        |
+| `<leader>ff`  | Fuzzy-find files.                                             |
+| `<leader>fg`  | Live grep                                                     |
+| `<leader>fb`  | Buffers                                                       |
+| `<leader>fh`  | Help tags...                                                  |
+| `<leader>n`   | Show filesystem tree.                                         |
+| `<leader>k`   | Display hover iunformation about the symbol under the cursor. |
+| `<leader>gd`  | Go to the definition of the symbol under the cursor.          |
+| `<leader>qf`  | Quick fix/code actions.                                       |
+| `<leader>td`  | Show 'Dooing' window.                                         |
+| `<leader>tD`  | Show Project-specific 'Dooing' window.                        |
 
 
 ## Applications
@@ -96,6 +96,7 @@ Install the following packages using the installation method of your choice:
 ##### LSP Servers
 
 - https://github.com/artempyanykh/marksman
+- https://github.com/typescript-language-server/typescript-language-server
 
 ### Background
 

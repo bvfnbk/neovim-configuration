@@ -22,7 +22,12 @@ return {
       filetypes = { "markdown" }
     })
 
+    vim.lsp.config("ts_ls", {
+      capabilities = default_capabilities
+    })
+
     vim.lsp.enable("lua_ls")
     vim.lsp.enable("marksman")
+    vim.lsp.enable("ts_ls")
   end
 }
