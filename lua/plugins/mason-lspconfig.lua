@@ -5,7 +5,8 @@ return {
     require("mason-lspconfig").setup({
       ensure_installed = {
         "lua_ls",
-        "marksman"
+        "marksman",
+        "ts_ls"
       },
       false
     })
