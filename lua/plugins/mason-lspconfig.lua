@@ -6,7 +6,8 @@ return {
       ensure_installed = {
         "lua_ls",
         "marksman",
-        "ts_ls"
+        "ts_ls",
+        "yamlls"
       },
       false
     })
