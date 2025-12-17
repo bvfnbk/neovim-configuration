@@ -1,6 +1,6 @@
 # neovim-configuration
 
-My (a) Neovim configuration.
+A Neovim configuration. This repository is my attempt to integrate _Neovim_ into my daily workflow.
 
 
 ## Installation
@@ -12,15 +12,19 @@ operating systems as well).
 
 ### macOS, Linux
 
-By default, _Neovim_ searches for its configuration in `$HOME/.config/$NVIM_APPNAME`:
+By default, _Neovim_ searches for its configuration in `$HOME/.config/nvim`.
+
+> [!NOTE]
+> 
+> It might be reasonable to create a backup of your current configuration before checking this repository out.
 
 ```shell
 git clone https://github.com/bvfnbk/neovim-configuration.git $HOME/.config/nvim
 ```
 
-> [!note]
->
-> `$HOME/.config` is the `$XDG_CONFIG_HOME` directory under Linux. The `$NVIM_APPNAME` is `nvim` by default.
+However, it is possible to use a different configuration directory: specify a different value for the
+`NVIM_APPNAME` environment variable (which it`nvim` by default).
+
 
 
 ### Windows
@@ -34,12 +38,21 @@ Install the following packages using the installation method of your choice:
 
 - https://github.com/BurntSushi/ripgrep (for _Telescope_ functions `live_grep` and `grep_string`)
 - GCC (for _Treesitter_)
-- Node and `npm` for the "Typescript Language Server"
+- Node and `npm` for the Node-based languange servers.
 
 #### Node/`npm` packages
 
+> [!NOTE]
+> 
+> Installing the individual packages appears not to be necessary. Looking at the processes started in the background,
+> _Neovim_ appears to use packages somewhere in the `$HOME/.local/share/nvim/masin/bin/` directory.
+>
+> However, _Node_ is required to run these packages.
+
+
 - `typescript`
 - `typescript-language-server`
+- `yaml-language-server`
 
 ## Keyboard
 
@@ -109,6 +122,7 @@ Install the following packages using the installation method of your choice:
 
 - https://github.com/artempyanykh/marksman
 - https://github.com/typescript-language-server/typescript-language-server
+- https://github.com/redhat-developer/yaml-language-server
 
 ### Background
 
