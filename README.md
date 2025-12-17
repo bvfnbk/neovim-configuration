@@ -52,6 +52,7 @@ Install the following packages using the installation method of your choice:
 
 - `typescript`
 - `typescript-language-server`
+- `vscode-langservers-extracted` (of which the `vscode-json-languageservice` is a part)
 - `yaml-language-server`
 
 ## Keyboard
@@ -123,6 +124,8 @@ Install the following packages using the installation method of your choice:
 - https://github.com/artempyanykh/marksman
 - https://github.com/typescript-language-server/typescript-language-server
 - https://github.com/redhat-developer/yaml-language-server
+- https://github.com/hrsh7th/vscode-langservers-extracted (which contains, amongst others,
+  https://github.com/Microsoft/vscode-json-languageservice)
 
 ### Background
 

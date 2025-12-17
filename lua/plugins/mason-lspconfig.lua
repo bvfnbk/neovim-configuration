@@ -7,7 +7,8 @@ return {
         "lua_ls",
         "marksman",
         "ts_ls",
-        "yamlls"
+        "yamlls",
+        "jsonls"
       },
       false
     })
