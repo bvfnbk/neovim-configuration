@@ -124,8 +124,12 @@ Install the following packages using the installation method of your choice:
 - https://github.com/artempyanykh/marksman
 - https://github.com/typescript-language-server/typescript-language-server
 - https://github.com/redhat-developer/yaml-language-server
-- https://github.com/hrsh7th/vscode-langservers-extracted (which contains, amongst others,
-  https://github.com/Microsoft/vscode-json-languageservice)
+- https://github.com/hrsh7th/vscode-langservers-extracted 
+
+  This package provides the following LSP servers (amongst others):
+
+  - https://github.com/Microsoft/vscode-json-languageservice
+  - https://github.com/microsoft/vscode-html-languageservice
 
 ### Background
 
