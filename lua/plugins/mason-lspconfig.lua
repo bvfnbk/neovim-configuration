@@ -8,7 +8,8 @@ return {
         "marksman",
         "ts_ls",
         "yamlls",
-        "jsonls"
+        "jsonls",
+        "html"
       },
       false
     })
