@@ -2,9 +2,8 @@ return {
   "neovim/nvim-lspconfig",
   config = function()
     local default_capabilities = require("cmp_nvim_lsp").default_capabilities()
+    default_capabilities.textDocument.completion.completionItem.snippetSupport = true
 
-    local c = vim.lsp.protocol.make_client_capabilities();
-    c.textDocument.completion.completionItem.snippetSupport = true
 
     vim.lsp.config("lua_ls", {
       capabilities = default_capabilities,
@@ -34,11 +33,11 @@ return {
     })
 
     vim.lsp.config("jsonls", {
-      capabilities = c
+      capabilities = default_capabilities
     })
 
     vim.lsp.config("html", {
-      capabilities = c
+      capabilities = default_capabilities
     })
 
     vim.lsp.enable("lua_ls")
