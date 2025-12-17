@@ -26,8 +26,13 @@ return {
       capabilities = default_capabilities
     })
 
+    vim.lsp.config("yamlls", {
+      capabilities = default_capabilities
+    })
+
     vim.lsp.enable("lua_ls")
     vim.lsp.enable("marksman")
     vim.lsp.enable("ts_ls")
+    vim.lsp.enable("yamlls")
   end
 }
