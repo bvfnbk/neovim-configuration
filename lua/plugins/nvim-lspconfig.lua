@@ -37,10 +37,15 @@ return {
       capabilities = c
     })
 
+    vim.lsp.config("html", {
+      capabilities = c
+    })
+
     vim.lsp.enable("lua_ls")
     vim.lsp.enable("marksman")
     vim.lsp.enable("ts_ls")
     vim.lsp.enable("yamlls")
     vim.lsp.enable("jsonls")
+    vim.lsp.enable("html")
   end
 }
