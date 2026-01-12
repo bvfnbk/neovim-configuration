@@ -45,7 +45,7 @@ Install the following packages using the installation method of your choice:
 > [!NOTE]
 > 
 > Installing the individual packages appears not to be necessary. Looking at the processes started in the background,
-> _Neovim_ appears to use packages somewhere in the `$HOME/.local/share/nvim/masin/bin/` directory.
+> _Neovim_ appears to use packages somewhere in the `$HOME/.local/share/nvim/mason/bin/` directory.
 >
 > However, _Node_ is required to run these packages.
 
